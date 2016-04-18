@@ -14,7 +14,6 @@ signals:
 public slots:
 
 protected:
-    QString m_name;
     QString m_pattern;
 };
 

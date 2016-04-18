@@ -17,7 +17,13 @@ SOURCES += owproject.cpp \
     owcontroller.cpp \
     owaction.cpp \
     owview.cpp \
-    owlayout.cpp
+    owlayout.cpp \
+    owform.cpp \
+    owevent.cpp \
+    oweventhandler.cpp \
+    owclass.cpp \
+    author.cpp \
+    license.cpp
 
 HEADERS += owproject.h\
         owproject_global.h \
@@ -25,7 +31,13 @@ HEADERS += owproject.h\
     owcontroller.h \
     owaction.h \
     owview.h \
-    owlayout.h
+    owlayout.h \
+    owform.h \
+    owevent.h \
+    oweventhandler.h \
+    owclass.h \
+    author.h \
+    license.h
 
 unix {
     target.path = /usr/lib

@@ -14,7 +14,6 @@ signals:
 public slots:
 
 protected:
-    QString m_name;
 };
 
 #endif // OWCONTROLLER_H
